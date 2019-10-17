@@ -1,0 +1,31 @@
+{
+  "name": "string-calculator-kata",
+  "version": "1.0.0",
+  "description": "String Calculator Kata",
+  "scripts": {
+    "test": "nodemon --exec 'babel-node node_modules/.bin/jasmine' || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/custompro98/string-calculator-kata.git"
+  },
+  "author": "custompro98",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/custompro98/string-calculator-kata/issues"
+  },
+  "homepage": "https://github.com/custompro98/string-calculator-kata#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "jasmine": "^3.5.0",
+    "nodemon": "^1.19.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
