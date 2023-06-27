@@ -2,8 +2,8 @@ String Calculator Kata
 ============
 Setup: 
 * Install [golang](https://golang.org/doc/install)
-* Install [gotestsum](https://github.com/gotestyourself/gotestsum) (`go get gotest.tools/gotestsum`)
-* Install [filewatcher](https://github.com/dnephin/filewatcher) (`go get github.com/dnephin/filewatcher`)
+* Install [gotestsum](https://github.com/gotestyourself/gotestsum) (`go install gotest.tools/gotestsum`)
+* Install [filewatcher](https://github.com/dnephin/filewatcher) (`go install github.com/dnephin/filewatcher`)
 * `go mod download`
   
 Run: `filewatcher --directory pkg --exclude '**/*.swp' gotestsum './${dir}'`
