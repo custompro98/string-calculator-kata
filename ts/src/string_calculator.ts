@@ -1,5 +1,3 @@
-const add = (_: string): number => {
-  return 0
-}
+const add = () => {};
 
-export { add }
+export { add };
