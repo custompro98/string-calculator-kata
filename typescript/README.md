@@ -1,6 +1,5 @@
 String Calculator Kata
 ============
-Setup: `npm install`  
-Run: `npm test`  
+Run: `deno test --watch`  
   
-Your tests are in `src/__tests__/string_calculator.test.ts` and your function is defined in `src/string_calculator.ts`
+Your tests are in `main_test.ts` and your function is defined in `main.ts`
