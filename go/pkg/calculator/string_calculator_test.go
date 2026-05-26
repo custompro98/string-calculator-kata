@@ -1,17 +1,17 @@
 package calculator
 
 import (
-  "fmt"
-  "testing"
+	"fmt"
+	"testing"
 
 	"github.com/stretchr/testify/assert"
 )
 
 func TestAdd(t *testing.T) {
-  assert := assert.New(t)
+	assert := assert.New(t)
 
-  expected := true
-  result := false
+	expected := true
+	result := false
 
-  assert.Equal(expected, result, fmt.Sprintf("expected=%v got=%v", expected, result))
+	assert.Equal(expected, result, fmt.Sprintf("expected=%v got=%v", expected, result))
 }
