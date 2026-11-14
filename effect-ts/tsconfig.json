@@ -82,6 +82,12 @@
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
 
     /* Type Checking */
+    "plugins": [
+      {
+        "name": "@effect/language-service",
+        "allowedUnstableApis": ["@effect/vitest"]
+      }
+    ],
     "strict": true,                                      /* Enable all strict type-checking options. */
     // "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     // "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
